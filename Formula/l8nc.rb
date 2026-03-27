@@ -7,7 +7,7 @@ class L8nc < Formula
   sha256 "c3e9eafdc507b8a3536def8280d6c081d034b33c28e93ed6b109dbd64311d538"
   license "MIT"
 
-  depends_on "python@3.13"
+  depends_on "python@3.14"
   depends_on "pygments"
 
   resource "click" do
