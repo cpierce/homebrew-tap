@@ -3,41 +3,41 @@ class L8nc < Formula
 
   desc "Multi-target continuous ping monitor for network troubleshooting"
   homepage "https://github.com/cpierce/l8nc"
-  url "https://files.pythonhosted.org/packages/55/3c/92438069f3cf1e87886f9b66857e50504fb708314e98bc2f71046327b210/l8nc-0.1.3.tar.gz"
-  sha256 "abc08c45439e8f1e54430f7145079feb29364f871946d4de9d9cd2e1e085ec37"
+  url "https://files.pythonhosted.org/packages/c3/15/812168135891753afc791794f5f12ca5cd1e82948edb67dbe5fb8149ec07/l8nc-0.1.7.tar.gz"
+  sha256 "53ad9cdcae69d675453a3a3e91188cd67ebe3dd2ea7295e0c0c6eaa0f68dd50d"
   license "MIT"
 
   depends_on "python@3.14"
   depends_on "pygments"
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    url "https://files.pythonhosted.org/packages/c3/15/812168135891753afc791794f5f12ca5cd1e82948edb67dbe5fb8149ec07/l8nc-0.1.7.tar.gz"
+    sha256 "53ad9cdcae69d675453a3a3e91188cd67ebe3dd2ea7295e0c0c6eaa0f68dd50d"
   end
 
   resource "icmplib" do
-    url "https://files.pythonhosted.org/packages/6d/78/ca07444be85ec718d4a7617f43fdb5b4eaae40bc15a04a5c888b64f3e35f/icmplib-3.0.4.tar.gz"
-    sha256 "57868f2cdb011418c0e1d5586b16d1fabd206569fe9652654c27b6b2d6a316de"
+    url "https://files.pythonhosted.org/packages/c3/15/812168135891753afc791794f5f12ca5cd1e82948edb67dbe5fb8149ec07/l8nc-0.1.7.tar.gz"
+    sha256 "53ad9cdcae69d675453a3a3e91188cd67ebe3dd2ea7295e0c0c6eaa0f68dd50d"
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
-    sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
+    url "https://files.pythonhosted.org/packages/c3/15/812168135891753afc791794f5f12ca5cd1e82948edb67dbe5fb8149ec07/l8nc-0.1.7.tar.gz"
+    sha256 "53ad9cdcae69d675453a3a3e91188cd67ebe3dd2ea7295e0c0c6eaa0f68dd50d"
   end
 
   resource "mdurl" do
-    url "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz"
-    sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
+    url "https://files.pythonhosted.org/packages/c3/15/812168135891753afc791794f5f12ca5cd1e82948edb67dbe5fb8149ec07/l8nc-0.1.7.tar.gz"
+    sha256 "53ad9cdcae69d675453a3a3e91188cd67ebe3dd2ea7295e0c0c6eaa0f68dd50d"
   end
 
   resource "plotext" do
-    url "https://files.pythonhosted.org/packages/c9/d7/f75f397af966fe252d0d34ffd3cae765317fce2134f925f95e7d6725d1ce/plotext-5.3.2.tar.gz"
-    sha256 "52d1e932e67c177bf357a3f0fe6ce14d1a96f7f7d5679d7b455b929df517068e"
+    url "https://files.pythonhosted.org/packages/c3/15/812168135891753afc791794f5f12ca5cd1e82948edb67dbe5fb8149ec07/l8nc-0.1.7.tar.gz"
+    sha256 "53ad9cdcae69d675453a3a3e91188cd67ebe3dd2ea7295e0c0c6eaa0f68dd50d"
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/b3/c6/f3b320c27991c46f43ee9d856302c70dc2d0fb2dba4842ff739d5f46b393/rich-14.3.3.tar.gz"
-    sha256 "b8daa0b9e4eef54dd8cf7c86c03713f53241884e814f4e2f5fb342fe520f639b"
+    url "https://files.pythonhosted.org/packages/c3/15/812168135891753afc791794f5f12ca5cd1e82948edb67dbe5fb8149ec07/l8nc-0.1.7.tar.gz"
+    sha256 "53ad9cdcae69d675453a3a3e91188cd67ebe3dd2ea7295e0c0c6eaa0f68dd50d"
   end
 
   def install
