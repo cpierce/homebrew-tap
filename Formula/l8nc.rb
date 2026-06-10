@@ -3,8 +3,8 @@ class L8nc < Formula
 
   desc "Multi-target continuous ping monitor for network troubleshooting"
   homepage "https://github.com/cpierce/l8nc"
-  url "https://files.pythonhosted.org/packages/79/81/0ae5e7d62af1b93ad9a7c0d9092c4db421eeb883a47d03db4ca56cb70563/l8nc-0.1.8.tar.gz"
-  sha256 "6176a54eb00661722f22dd23d00d2d38eede217035a96a2b169bc6a789a046b0"
+  url "https://files.pythonhosted.org/packages/00/31/e104e8fbcbe3793150556f9054a94cba679a753f723f4a5bf39a4398149d/l8nc-0.1.9.tar.gz"
+  sha256 "af0ff3ac0b0d66e6c970095ef64d3a1316691392377d19a2049651cce0cf9ee0"
   license "MIT"
 
   depends_on "python@3.14"
